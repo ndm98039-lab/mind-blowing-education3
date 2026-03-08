@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivation Category - Mind Blowing Education</title>
+    <meta name="description" content="प्रेरणादायक मोटिवेशनल कहानियां और कोट्स हिंदी में। सफलता के लिए मोटिवेशन।">
+    <meta name="keywords" content="motivation, success, life, inspiration, hindi motivation">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html">Mind Blowing Education</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="motivation.html" class="active"><i class="fas fa-fire"></i> Motivation</a></li>
+                <li><a href="love-quotes.html"><i class="fas fa-heart"></i> Love Quotes</a></li>
+                <li><a href="sad-shayari.html"><i class="fas fa-heart-broken"></i> Sad Shayari</a></li>
+                <li><a href="maa-quotes.html"><i class="fas fa-female"></i> Maa Quotes</a></li>
+                <li><a href="baap-quotes.html"><i class="fas fa-male"></i> Baap Quotes</a></li>
+                <li><a href="bhai-quotes.html"><i class="fas fa-user-friends"></i> Bhai Quotes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Category Header -->
+    <header class="category-header" style="background: linear-gradient(135deg, #ff6b6b, #feca57); padding: 80px 0; margin-top: 60px; text-align: center; color: #fff;">
+        <div class="container">
+            <h1 style="font-size: 3rem; margin-bottom: 1rem;">🔥 Motivation</h1>
+            <p style="font-size: 1.2rem;">प्रेरणा और सफलता की अनमोल कहानियां</p>
+        </div>
+    </header>
+
+    <!-- Category Blogs -->
+    <section class="category-blogs" style="padding: 3rem 0;">
+        <div class="container">
+            <div class="blog-grid">
+                <!-- Blog 1 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="../images/motivation-success.jpg" alt="Motivation for Success">
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="../blogs/motivation-success.html">सफलता के लिए मोटिवेशन</a></h3>
+                        <p class="blog-excerpt">कभी हार मत मानो, सफलता आपके कदम चूमेगी...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 15 Feb 2024</span>
+                            <a href="../blogs/motivation-success.html" class="read-more">पढ़ें <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Blog 2 -->
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="../images/never-give-up.jpg" alt="Never Give Up">
+                    </div>
+                    <div class="blog-content">
+                        <h3><a href="../blogs/never-give-up.html">Never Give Up - कभी हार मत मानो</a></h3>
+                        <p class="blog-excerpt">जिंदगी की जंग में हारना नहीं, लड़ना सीखो...</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> 14 Feb 2024</span>
+                            <a href="../blogs/never-give-up.html" class="read-more">पढ़ें <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Add more blog posts here (30-50 blogs total) -->
+                <!-- Repeat similar structure for 30-50 blogs -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination" style="text-align: center; margin-top: 3rem;">
+                <a href="#" class="active" style="display: inline-block; padding: 0.5rem 1rem; margin: 0 0.25rem; background: var(--primary-color); color: #fff; border-radius: 5px;">1</a>
+                <a href="#" style="display: inline-block; padding: 0.5rem 1rem; margin: 0 0.25rem; background: var(--light-color); color: var(--dark-color); border-radius: 5px;">2</a>
+                <a href="#" style="display: inline-block; padding: 0.5rem 1rem; margin: 0 0.25rem; background: var(--light-color); color: var(--dark-color); border-radius: 5px;">3</a>
+                <a href="#" style="display: inline-block; padding: 0.5rem 1rem; margin: 0 0.25rem; background: var(--light-color); color: var(--dark-color); border-radius: 5px;">Next →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- ... same footer code ... -->
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
